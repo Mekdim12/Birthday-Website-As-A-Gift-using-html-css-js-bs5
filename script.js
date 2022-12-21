@@ -67,7 +67,7 @@ function ToggelerafterimageTaken(){
     
     let titleholder = document.querySelector('.betheader');
     titleholder.innerHTML = "#8 Your are Gorgrous AF 🤩🤩🤩"
-    alert("ss")
+    
     stream_.getTracks() // get all tracks from the MediaStream
     .forEach( track => track.stop() ); // stop each of them    
 }
