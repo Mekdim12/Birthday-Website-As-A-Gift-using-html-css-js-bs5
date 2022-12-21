@@ -152,6 +152,101 @@ justify-content: center;
 .forhidingmain{
    display: none;
 }
+@media screen and (min-width: 550px){
 
+    .birthdateholder{
+        z-index: 15;
+        width: 500px;
+        height: 250px;
+        position: absolute;
+        bottom: -50%;
+        left: 25%;
+        font-size: 3vw;
+        font-family: arial;
+        text-align: center;
+        text-transform: uppercase;
+        background:rgba(249,241,219,0.5);
+        padding: 10px;
+        transform: translate (-50%, -50%);
+    }
+}
+
+
+
+@media screen and (min-width: 850px){
+
+
+    .bg-first{
+  
+        background-image: url('https://img.freepik.com/free-vector/elegant-birthday-background-with-realistic-podium_1361-3426.jpg?w=996&t=st=1671274343~exp=1671274943~hmac=8c9a0321d15a406fd702d6cb28c636bf17a980b72ebc1d6b3ec9afed6f829539');
+        height: 90vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
+
+    .birthdateholder{
+        z-index: 15;
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        bottom: -45%;
+        left: 30%;
+        font-size: 3vw;
+        font-family: arial;
+        text-align: center;
+        text-transform: uppercase;
+        background:rgba(249,241,219,0.5);
+        padding: 10px;
+        transform: translate (-50%, -50%);
+    }
+    .mainquoteholder{
+        margin: 50px 0px 50px 0px;
+        background-color: #F4DACD;
+        width: 35rem;
+        height: 50vh;
+        border-radius: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+}
+
+
+@media screen and (min-width: 1400px){
+
+    .birthdateholder{
+        z-index: 15;
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        bottom: -65%;
+        left: 30%;
+        font-size: 3vw;
+        font-family: arial;
+        text-align: center;
+        text-transform: uppercase;
+        background:rgba(249,241,219,0.5);
+        padding: 10px;
+        transform: translate (-50%, -50%);
+    }
+    .middleContainer{
+        margin-top:80px;
+    }
+
+    .mainquoteholder{
+       margin: 50px 0px 50px 0px;
+       background-color: #F4DACD;
+       width: 45rem;
+       height: 50vh;
+       border-radius: 10%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       }
+}
 
 

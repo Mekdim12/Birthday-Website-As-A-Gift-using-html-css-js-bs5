@@ -63,8 +63,11 @@ function ToggelerafterimageTaken(){
     cameraButton.style.display = "none";
 
     let context = imageviewercanavas.getContext("2d")
-    context.drawImage(videofeeed,0, 0, 500, 250);
-
+    context.drawImage(videofeeed,0, 0, 300, 200);
+    
+    let titleholder = document.querySelector('.betheader');
+    titleholder.innerHTML = "#8 Your are Gorgrous AF 🤩🤩🤩"
+    alert("ss")
     stream_.getTracks() // get all tracks from the MediaStream
     .forEach( track => track.stop() ); // stop each of them    
 }
@@ -101,4 +104,5 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 function unhidingthemainpage(){
     let objs = document.querySelector('.forhidingmain')
     objs.style.display = 'block'
+    
 }
