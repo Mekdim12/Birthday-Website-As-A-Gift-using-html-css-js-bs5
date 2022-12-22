@@ -15,6 +15,104 @@ body{
     display: none;
 }
 
+
+
+
+.bg-first{
+  
+    background-image: url('https://img.freepik.com/free-vector/elegant-birthday-background-with-realistic-podium_1361-3426.jpg?w=996&t=st=1671274343~exp=1671274943~hmac=8c9a0321d15a406fd702d6cb28c636bf17a980b72ebc1d6b3ec9afed6f829539');
+    height: 90vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg2{
+    background-image: url('https://img.freepik.com/free-vector/happy-birthday-flags-confetti-card_1017-32699.jpg?w=2000&t=st=1671219810~exp=1671220410~hmac=b52f59a72318285394a54269836a5bdb8866e440c409fce667fc6899066b256a');
+    height: 500px;
+     opacity: 9.9%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ 
+}
+
+
+
+.birthdateholder{
+    z-index: 15;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    bottom: -50%;
+    left: 35%;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    background:rgba(249,241,219,0.5);
+    padding: 10px;
+    transform: translate (-50%, -50%);
+}
+
+.mainquoteholder{
+    margin: 50px 0px 50px 0px;
+    background-color: #F4DACD;
+    width: 25rem;
+    height: 50vh;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otherwishes{
+    margin: 50px 0px 50px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.insideotherwishs{
+    margin: 10px 0px 10px 0px;
+
+}
+.lastQuote{
+    padding: 100px;
+    font-size: 1.6em;
+   
+}
+
+.lastquoyteholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+
+
+.customefooter{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh !important;
+    font-size: 1.3em;
+}
+
+
+.forhidingmain{
+   display: none;
+}
+
+
+
+
 @media screen and (max-width: 754px) {
     .someDude{
        width:100%;
@@ -61,100 +159,6 @@ body{
 }
 
 
-
-.bg-first{
-  
-    background-image: url('https://img.freepik.com/free-vector/elegant-birthday-background-with-realistic-podium_1361-3426.jpg?w=996&t=st=1671274343~exp=1671274943~hmac=8c9a0321d15a406fd702d6cb28c636bf17a980b72ebc1d6b3ec9afed6f829539');
-    height: 90vh;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.bg2{
-    background-image: url('https://img.freepik.com/free-vector/happy-birthday-flags-confetti-card_1017-32699.jpg?w=2000&t=st=1671219810~exp=1671220410~hmac=b52f59a72318285394a54269836a5bdb8866e440c409fce667fc6899066b256a');
-    height: 500px;
-     opacity: 9.9%;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
- 
-}
-
-
-
-.birthdateholder{
-    z-index: 15;
-    width: 500px;
-    height: 250px;
-    position: absolute;
-    bottom: -50%;
-    left: 35%;
-    font-size: 3vw;
-    font-family: arial;
-    text-align: center;
-    text-transform: uppercase;
-    background:rgba(249,241,219,0.5);
-    padding: 10px;
-    transform: translate (-50%, -50%);
-}
-
-.mainquoteholder{
- margin: 50px 0px 50px 0px;
- background-color: #F4DACD;
-
-/* background-image: url('https://t4.ftcdn.net/jpg/04/20/09/31/360_F_420093156_dEpP6CgbzpAsZZNdpFigl7szRqMY861b.jpg'); */
-width: 25rem;
-height: 50vh;
-border-radius: 10%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.otherwishes{
-    margin: 50px 0px 50px 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    
-}
-
-.insideotherwishs{
-    margin: 10px 0px 10px 0px;
-
-}
-.lastQuote{
-    padding: 100px;
-    font-size: 1.6em;
-   
-}
-
-.lastquoyteholder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-}
-
-
-
-
-.customefooter{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh !important;
-    font-size: 1.3em;
-}
-
-
-.forhidingmain{
-   display: none;
-}
 @media screen and (min-width: 550px){
 
     .birthdateholder{

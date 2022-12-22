@@ -4,10 +4,6 @@
 
 
 currentAge = 21;
-console.log(Date.now())
-
-
-
 
 
 function _to_call_the_first_modal(){
